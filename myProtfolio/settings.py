@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-wiwmnp@_v(#9912u9pk1+-0b$_w$0r4n$+jgp_ur&^6rz%)a1*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'mamunsite.herokuapp.com'
+]
 
 
 # Application definition
